@@ -39,7 +39,7 @@ except:
 
 class CRMConfig:
     """Central configuration for CRM Agent"""
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = ""
     HOT_LEAD_THRESHOLD = 75
     WARM_LEAD_THRESHOLD = 50
     MODEL_PATH = 'models/'
@@ -472,4 +472,5 @@ if __name__ == '__main__':
     print("\n📌 Server: http://127.0.0.1:5002")
     print("="*80 + "\n")
     
+
     app.run(debug=True, host='0.0.0.0', port=5002)
